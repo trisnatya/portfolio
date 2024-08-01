@@ -11,10 +11,10 @@ header {
 header p {
 	display: inline-block;
 	float: left;
-	font-size: 35px;
+	font-size: 32px;
 	font-weight: bold;
 	padding:15px 24px;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 }
 header p a {
 	transition: .3s;
@@ -153,9 +153,9 @@ section h3::after {
 	left: calc(50% - 20px);
 }
 #about p {
-	text-align: justify;
-	text-indent: 30px;
-	line-height: 25px;
+/*	text-align: left;*/
+/*	text-indent: 30px;*/
+/*	line-height: 25px;*/
 	margin-bottom: 15px;
 }
 #skills,
@@ -176,13 +176,13 @@ section h3::after {
 	text-align: center;
 }
 .html {
-	width:100%;
+	width:95%;
 }
 .css {
-	width:90%;
+	width:85%;
 }
 .js {
-	width:80%;
+	width:90%;
 }
 .php {
 	width:95%;
@@ -234,7 +234,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-@media (max-width: 905px){
+@media (max-width: 993px){
 
 	.mobile-menu {
 		display: block;
@@ -246,6 +246,10 @@ html {
 	.mobile-menu i:hover {
 		color: #F84744;
 	}
+    header {
+        height:70px;
+        position: fixed;
+    }
 	header p {
 		font-size: 26px;
 		padding:20px 24px;
@@ -280,7 +284,7 @@ html {
     	display: inline-block;
 	}
 	header p {
-		font-size: 23px;
+		font-size: 17.8px;
 		padding:20px 24px;
 	}
 	footer{

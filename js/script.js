@@ -1,4 +1,4 @@
-const txtElement = ['Web Developer', 'Graphic Designer'];
+const txtElement = [' Web Developer', ' Web Developer'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
@@ -23,6 +23,16 @@ var message ="Function Disabled";
 
 	setTimeout(ngetik, 500);
 
+})();
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66977f5a32dca6db2cb11c80/1i2vsiv2d';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
 })();
 
 document.addEventListener('contextmenu', event => event.preventDefault());
